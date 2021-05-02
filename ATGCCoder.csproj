@@ -11,7 +11,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/lc6464/ATGCCoder</PackageProjectUrl>
     <PackageIcon>LCx256.png</PackageIcon>
-    <RepositoryUrl>https://github.com/lc6464/ATGCCoder</RepositoryUrl>
+    <RepositoryUrl>https://github.com/lc6464/ATGCCoder.git</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <SignAssembly>false</SignAssembly>
@@ -20,10 +20,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\一些图标\LC制作\LC.png\LCx256.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
     <None Include="LCx256.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -32,10 +28,6 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>
